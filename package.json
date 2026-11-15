@@ -1,0 +1,18 @@
+{
+  "name": "is117-group-business",
+  "version": "1.0.0",
+  "description": "IS117 group business research: Exit Fresh car interior kit",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "private": true
+}
