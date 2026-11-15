@@ -13,14 +13,15 @@ Each row links to the actual work. Anything not done yet is marked **pending**.
 
 | Member | Research | Review | Decisions |
 |---|---|---|---|
-| Konrad | Picked the business idea (an interior car kit with a scent), checked the three competitor pages on 2026-11-15, wrote the research, and built this site | Opened the review request for Safwaan (see Reviews below) | Chose Position A (commuting students) and the three proposed features on [Research](/research#from-finding-to-decision-to-check) |
-| Safwaan | **Pending:** review the research and add his own observation or reference | **Pending:** question one assumption in a GitHub issue | **Pending:** agree with or challenge the chosen audience |
+| Konrad | Picked the business idea (an interior car kit with a scent), checked the three competitor pages on 2026-11-15, wrote the research, and built this site | Opened the review request for Safwaan (see Reviews below) | Chose Position A (commuting students) and the three proposed features on [Research](/research#from-finding-to-decision-to-check). Wrote the [group plan](/plan) and proposed the work split |
+| Safwaan | Joined the shared repo (Nov 15). **Pending:** review the research and add his own observation or reference | **Pending:** question one assumption in a GitHub issue | **Pending:** agree with or challenge the chosen audience |
 
 ## Reviews
 
 | Issue | What it's for | Status |
 |---|---|---|
 | [#1 Review request: group research](https://github.com/KonradSikorski5/is117-group-business/issues/1) | Safwaan opens one source, traces one finding to its decision and check, and questions one assumption | Open, waiting for Safwaan |
+| [#2 Plan review](https://github.com/KonradSikorski5/is117-group-business/issues/2) | Safwaan agrees on or changes the [team work plan](/plan#team-work-plan), checks one story, and questions one thing | Open, waiting for Safwaan |
 
 When feedback comes in, we record the decision, the linked change, how we checked it, and the reviewer's retry before closing the issue.
 

@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Research', link: '/research' },
       { text: 'Sources', link: '/sources' },
+      { text: 'Plan', link: '/plan' },
       { text: 'Team & reviews', link: '/team' }
     ],
     sidebar: [
@@ -21,6 +22,7 @@ export default defineConfig({
           { text: 'Sources & check dates', link: '/sources' }
         ]
       },
+      { text: 'Plan', items: [{ text: 'Group plan', link: '/plan' }] },
       { text: 'Team', items: [{ text: 'Team, contributions & reviews', link: '/team' }] }
     ],
     outline: { level: [2, 3], label: 'On this page' },

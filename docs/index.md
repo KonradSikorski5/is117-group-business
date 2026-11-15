@@ -20,6 +20,7 @@ The kit is meant to sell online first. Gas stations, auto parts stores, and camp
 |---|---|
 | See what we found and why we chose our audience | [Research findings](/research) |
 | Open the original competitor pages | [Sources & check dates](/sources) |
+| See what we plan to build and who does what | [Group plan](/plan) |
 | See who did what, and the review issues | [Team, contributions & reviews](/team) |
 
 ## How to read this
