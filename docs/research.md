@@ -28,6 +28,17 @@ All three references were checked on their official sites on **2026-11-15**. Lin
 - College commuters in NJ spend a lot of time in their cars and would want a quick, cheap way to keep the inside clean.
 - A kit under about $25, with the shipping cost shown up front, would feel easier to buy than a $32–$45 kit with a $75 free-shipping minimum.
 - People will want scent refills, because the scent runs out (based on evidence 4, but not tested with buyers).
+- **Questioned by Safwaan ([#1](https://github.com/KonradSikorski5/is117-group-business/issues/1)):** that buyers already know which scent they want and how strong it is. A first-time buyer might worry it's too strong in a closed car. **Decision:** offer an **Unscented** option and a short strength note for each scent (for example, "Crisp Citrus — Light"). See [Plan](/plan).
+
+## Safwaan's added observation
+
+> Added by Safwaan (safwaanarif) on Nov 15 in [issue #1](https://github.com/KonradSikorski5/is117-group-business/issues/1).
+
+**His observation:** Chemical Guys ([chemicalguys.com](https://www.chemicalguys.com/)) names scents right in the product titles and groups kits by cleaning task, which helps shoppers pick by both job and smell. He suggests pairing each Exit Fresh scent with a short 2–3 word strength note.
+
+**Checked by Konrad on Nov 16:** Chemical Guys' product list does name scents in titles, for example "New Car Smell Trio," "Signature Scent Vent Clip Air Freshener," and "Cherry Blast Air Freshener Spray & Hanging Kit." I didn't check the grouping by cleaning task.
+
+**Trace checked by Safwaan:** he opened a source on [Sources](/sources) and confirmed the kit contents and pricing match our table. He then followed the scent finding to the scent picker and refill feature and its check on the [Plan](/plan).
 
 ## Two positions
 

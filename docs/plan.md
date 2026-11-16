@@ -38,7 +38,7 @@ Both use the **same** kit, price, hero copy, scents, and checkout. Only the orde
 | --- | --- | --- | --- |
 | S1 | As a commuting student, I want to see what's in the kit so I know what I'm paying for. | F1: a "What's inside" list (wipes, microfiber cloth, detail brush, vent-clip scent) | A classmate lists all 4 items using only the product page |
 | S2 | As a student on a budget, I want the full price with shipping before checkout. | F2: a summary showing kit price, the scent refill if added, demo shipping, and the total | Add a refill: the total goes up by the refill price, and shipping is shown before the checkout button |
-| S3 | As a buyer, I want to pick my scent so the kit fits me. | F3: a required scent picker (3 scents) plus an optional refill add-on | With no scent picked, checkout shows an error. After picking one, it appears in the summary |
+| S3 | As a buyer, I want to pick my scent so the kit fits me. | F3: a required scent picker (3 scents plus **Unscented**, each with a short strength note like "Crisp Citrus — Light") and an optional refill add-on ([#1](https://github.com/KonradSikorski5/is117-group-business/issues/1)) | With no scent picked, checkout shows an error. After picking one, it appears in the summary |
 | S4 | As a buyer, I want proof the demo order went through. | F4: a demo checkout (fake email) that saves the order and shows an order number | A bad email saves nothing and shows an error. A valid order shows an order number and appears in "Demo order history" |
 
 **Deferred (not building):** real payments, accounts, store locator, and subscriptions.
@@ -46,13 +46,14 @@ Both use the **same** kit, price, hero copy, scents, and checkout. Only the orde
 ## Data, states, and limits
 
 - **Inputs:** scent (1 of 3), refill yes/no, and a fake email like `demo@example.test`. The email is checked but not saved.
-- **Data:** kit price and refill price are **demo prices** that we'll set when we build. They aren't real costs. Orders are saved in browser storage on the public site. A local SQLite server is optional.
+- **Data:** kit price and refill price are **demo prices** that we'll set when we build. They aren't real costs.
+- **Refill (decided in [#2](https://github.com/KonradSikorski5/is117-group-business/issues/2)):** the refill is a **separate add-on line** in the summary ("Scent refill +$X"). The order record stores it as its own field (refill: yes or no). The server works out kit + refill + shipping from its own prices, so the page summary and the saved total always match. Orders are saved in browser storage on the public site. A local SQLite server is optional.
 - **States:** scent missing → error · ready · saving · confirmation with order number · save failed → error, with no fake success message.
 - **Limits:** Exit Fresh is fictional. There's no real product, stock, or shipping.
 
 ## Team work plan
 
-> **Proposed by Konrad on Nov 16. Waiting for Safwaan to agree or change it** in [issue #2](https://github.com/KonradSikorski5/is117-group-business/issues/2).
+> **Agreed.** Safwaan agreed to this split on Nov 15 in [issue #2](https://github.com/KonradSikorski5/is117-group-business/issues/2).
 
 | Member | Design and build | Cross-review (checks the other's work) | Planned effort |
 | --- | --- | --- | --- |
