@@ -20,8 +20,8 @@ Each row links to the actual work. Anything not done yet is marked **pending**.
 
 | Issue | What it's for | Status |
 |---|---|---|
-| [#1 Review request: group research](https://github.com/KonradSikorski5/is117-group-business/issues/1) | Safwaan opens one source, traces one finding to its decision and check, and questions one assumption | **Reviewed Nov 15.** Decision: added an Unscented option and strength notes, and recorded his observation. Waiting for his retry |
-| [#2 Plan review](https://github.com/KonradSikorski5/is117-group-business/issues/2) | Safwaan agrees on or changes the [team work plan](/plan#team-work-plan), checks one story, and questions one thing | **Reviewed Nov 15.** He agreed to the split. Decision on his refill question: a separate add-on line, priced by the server. Waiting for his retry |
+| [#1 Review request: group research](https://github.com/KonradSikorski5/is117-group-business/issues/1) | Safwaan opens one source, traces one finding to its decision and check, and questions one assumption | **Reviewed Nov 15.** Decision: added an Unscented option and strength notes, and recorded his observation. Change made and issue closed Nov 16. Safwaan can comment to reopen if his retry finds a problem |
+| [#2 Plan review](https://github.com/KonradSikorski5/is117-group-business/issues/2) | Safwaan agrees on or changes the [team work plan](/plan#team-work-plan), checks one story, and questions one thing | **Reviewed Nov 15.** He agreed to the split. Decision on his refill question: a separate add-on line, priced by the server. Change made and issue closed Nov 16. Safwaan can comment to reopen if his retry finds a problem |
 
 When feedback comes in, we record the decision, the linked change, how we checked it, and the reviewer's retry before closing the issue.
 
