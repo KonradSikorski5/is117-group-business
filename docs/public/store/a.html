@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exit Fresh — a small car cleaning kit with a scent you pick</title>
+    <meta
+      name="description"
+      content="One small kit for the inside of your car: wipes, a cloth, a brush, and a scent you pick. Full price shown before you check out. A fictional class demo."
+    />
+    <link rel="stylesheet" href="store.css" />
+    <script type="module" src="store.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="logo" href="a.html">Exit Fresh</a>
+      <nav aria-label="Store">
+        <a href="a.html" aria-current="page">Version A</a>
+        <span>Version B (coming)</span>
+        <a href="../">Project record</a>
+      </nav>
+    </header>
+
+    <main id="main" class="layout-a">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">For students who commute</p>
+          <h1 id="hero-title">Car looking rough?</h1>
+          <p class="lead">
+            One small kit: wipes, a cloth, a brush, and a scent you pick. Full
+            price shown before you check out.
+          </p>
+          <p class="price">$18.00 <span>demo price</span></p>
+        </div>
+        <svg
+          class="kit-art"
+          viewBox="0 0 240 180"
+          role="img"
+          aria-labelledby="kit-art-title"
+        >
+          <title id="kit-art-title">
+            Drawing of the Exit Fresh kit: a small box with a wipes pack, a
+            cloth, a brush, and a vent clip
+          </title>
+          <rect x="20" y="40" width="200" height="120" rx="10" fill="#1f4e5f" />
+          <rect x="40" y="60" width="70" height="44" rx="6" fill="#e8f1f2" />
+          <rect x="120" y="60" width="80" height="16" rx="4" fill="#f2c14e" />
+          <rect x="120" y="86" width="12" height="54" rx="3" fill="#e8f1f2" />
+          <rect x="140" y="86" width="60" height="54" rx="6" fill="#9bc1bc" />
+          <circle cx="75" cy="128" r="14" fill="#f2c14e" />
+          <text x="120" y="30" text-anchor="middle" font-size="16" fill="#1f4e5f">
+            Exit Fresh kit
+          </text>
+        </svg>
+      </section>
+
+      <section class="grid">
+        <section class="card" aria-labelledby="inside-title">
+          <h2 id="inside-title">What's inside</h2>
+          <ul id="kit-contents" class="contents"></ul>
+          <p class="note">Fictional demo product. Nothing ships.</p>
+        </section>
+
+        <section class="card" aria-labelledby="pick-title">
+          <h2 id="pick-title">Pick your scent</h2>
+          <div id="scent-picker" class="slot">
+            <p>
+              Scent picker, refill, and checkout are coming next (Safwaan's
+              part of the build).
+            </p>
+          </div>
+        </section>
+
+        <section
+          class="card summary"
+          aria-labelledby="summary-title"
+          aria-live="polite"
+        >
+          <h2 id="summary-title">Your total</h2>
+          <dl>
+            <div class="row">
+              <dt>Scent</dt>
+              <dd id="summary-scent">Not chosen yet</dd>
+            </div>
+            <div class="row">
+              <dt>Kit</dt>
+              <dd id="summary-kit">$18.00</dd>
+            </div>
+            <div class="row">
+              <dt>Scent refill</dt>
+              <dd id="summary-refill">Not added</dd>
+            </div>
+            <div class="row">
+              <dt>Demo shipping</dt>
+              <dd id="summary-shipping">$0.00</dd>
+            </div>
+            <div class="row total">
+              <dt>Total</dt>
+              <dd id="summary-total">$18.00</dd>
+            </div>
+          </dl>
+          <p class="note">This is the full price. Nothing is added later.</p>
+        </section>
+      </section>
+
+      <section class="card checklist" aria-labelledby="reset-title">
+        <h2 id="reset-title">Free: the 5-minute car reset</h2>
+        <ol>
+          <li>Take out trash and anything that doesn't live in the car.</li>
+          <li>Wipe the steering wheel, dash, and cup holders.</li>
+          <li>Brush out the vents and seat seams.</li>
+          <li>Wipe the inside of the windshield and your phone mount.</li>
+          <li>Clip in a fresh scent and crack the windows for a minute.</li>
+        </ol>
+        <p class="note">Works with any supplies, not just our kit.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Exit Fresh is a fictional IS117 class project by Konrad Sikorski and
+        Safwaan Arif. Demo data only: no real payments or customer information.
+      </p>
+    </footer>
+  </body>
+</html>
